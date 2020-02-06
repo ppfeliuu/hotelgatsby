@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
+import styeled from "@emotion/styled"
 import styled from "@emotion/styled"
 
 const ImageBackground = styled(BackgroundImage)`
