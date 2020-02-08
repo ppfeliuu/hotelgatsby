@@ -19,7 +19,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   const habitaciones = resultado.data.allDatoCmsHabitacion.nodes;
 
   habitaciones.forEach(habitacion => {
-      actions.createPage({
+      actions.createPages({
           path: habitacion.slug,
           component: require.resolve('./src/components/habitaciones.js'),
           context: {

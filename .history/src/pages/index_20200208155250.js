@@ -17,7 +17,7 @@ const ListadoHabitaciones = styled.ul`
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3rem;
   }
-`;
+`
 
 const IndexPage = () => {
   const habitaciones = useHabitaciones()
@@ -39,11 +39,11 @@ const IndexPage = () => {
         Nuestras Habitaciones
       </h2>
 
-      <ListadoHabitaciones>
+      <ul>
         {habitaciones.map(habitacion => (
           <HabitacionPreview key={habitacion.id} habitacion={habitacion} />
         ))}
-      </ListadoHabitaciones>
+      </ul>
     </Layout>
   )
 }

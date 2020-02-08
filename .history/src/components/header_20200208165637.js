@@ -15,7 +15,7 @@ const Header = () => {
     <div>
       <header
         css={css`
-          background-color: rgba(44, 62, 80);
+          background-color: #222;
           padding: 1rem;
         `}
       >
@@ -31,7 +31,7 @@ const Header = () => {
             }
           `}
         >
-          <EnlaceHome to="/">
+          <EnlaceHome>
             <h1>Hotel Gatsby</h1>
           </EnlaceHome>
 

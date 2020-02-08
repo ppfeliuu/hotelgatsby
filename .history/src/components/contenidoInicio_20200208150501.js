@@ -17,7 +17,7 @@ const TextoInicio = styled.div`
     } 
 
     p {
-        line-height: 2;
+        line-height: 2
     }
 `;
 

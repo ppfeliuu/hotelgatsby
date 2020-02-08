@@ -10,12 +10,12 @@ const EnlaceHome = styled(Link)`
   text-decoration: none;
 `
 
-const Header = () => {
+const Footer = () => {
   return (
     <div>
-      <header
+      <footer
         css={css`
-          background-color: rgba(44, 62, 80);
+          background-color: #222;
           padding: 1rem;
         `}
       >
@@ -37,9 +37,9 @@ const Header = () => {
 
           <Navegacion />
         </div>
-      </header>
+      </footer>
     </div>
   )
 }
 
-export default Header
+export default Footer

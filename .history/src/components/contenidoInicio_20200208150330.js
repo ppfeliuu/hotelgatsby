@@ -15,10 +15,6 @@ const TextoInicio = styled.div`
         grid-template-columns: 2fr 1fr;
         column-gap: 2rem;
     } 
-
-    p {
-        line-height: 2;
-    }
 `;
 
 

@@ -12,13 +12,9 @@ const TextoInicio = styled.div`
 
     @media (min-width: 768px) {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: repeat(2, 1fr);
         column-gap: 2rem;
     } 
-
-    p {
-        line-height: 2;
-    }
 `;
 
 

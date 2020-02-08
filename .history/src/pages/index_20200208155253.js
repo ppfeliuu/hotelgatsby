@@ -39,11 +39,11 @@ const IndexPage = () => {
         Nuestras Habitaciones
       </h2>
 
-      <ListadoHabitaciones>
+      <ul>
         {habitaciones.map(habitacion => (
           <HabitacionPreview key={habitacion.id} habitacion={habitacion} />
         ))}
-      </ListadoHabitaciones>
+      </ul>
     </Layout>
   )
 }

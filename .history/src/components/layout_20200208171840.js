@@ -49,8 +49,7 @@ const Layout = props => {
         `}
       />
       <Helmet>
-        <title>{title}</title>
-        <meta name="description" content={description} />
+        <title>Gatsby Hotel</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -64,7 +63,7 @@ const Layout = props => {
       </Helmet>
       <Header />
       {props.children}
-      <Footer title={title}/>
+      <Footer/>
     </>
   )
 }

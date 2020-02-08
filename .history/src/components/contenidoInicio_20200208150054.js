@@ -8,17 +8,7 @@ const TextoInicio = styled.div`
     padding-top: 4rem;
     max-width: 1200px;
     widows: 95%;
-    margin: 0 auto;  
-
-    @media (min-width: 768px) {
-        display: grid;
-        grid-template-columns: 2fr 1fr;
-        column-gap: 2rem;
-    } 
-
-    p {
-        line-height: 2;
-    }
+    margin: 0 auto;    
 `;
 
 
